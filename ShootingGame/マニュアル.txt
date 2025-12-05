@@ -1,0 +1,26 @@
+※compile.bat/run.bat/run.vbsを不要にvscodeなどで開いたりいじったりしないで。
+
+ShootingGame/
+ ├─ src/
+ │   ├─ main/MainPanel.java
+ │   ├─ start/StartPanel.java
+ │   ├─ clear/GameClearPanel.java
+ │   ├─ over/GameOverPanel.java
+ │   ├─ game/GamePanel.java
+ │   ├─ rank/RankingPanel.java
+ │   ├─ level/LevelSelectPanel.java
+ │   └─ Game.java
+ │  
+ ├─ bin/
+ │   ├─ main/MainPanel.class
+ │   ├─ start/StartPanel.class
+ │   ├─ clear/GameClearPanel.class
+ │   ├─ over/GameOverPanel.class
+ │   ├─ game/GamePanel.java
+ │   ├─ rank/RankingPanel.java
+ │   ├─ level/LevelSelectPanel.java
+ │   └─ Game.java
+ │  
+ ├─ compile.bat//ダブルクリックでコンパイル
+ ├─ run.bat
+ └─ run.vbs //ダブルクリックでゲーム起動
